@@ -1,0 +1,160 @@
+PYTHON
+======
+Varibale 
+--------
+- store info
+- mini data bucket 
+	- name
+	- memory location 
+	- value ---> data
+
+data --> blob img audio 
+	- data types 
+
+5 data types + 1 more 
+
+- JAVA - int float char("a" , "b") string ( "hfdg" , "dhkgf") long double boolean 
+
+- 2 independent - numbers and strings  
+	numbers - int float long . .. . .. . . .
+	strings - char string . ..
+
+- 3 derived datatypes 
+	lists 
+	tuples
+	dictionaries 
+
+	sets -- JAVA sets 
+
+Assignment operator - "="
+
+Naming conventions :
+-------------------
+- lowercase 
+- camel case
+- XX number XX 
+- XX special char XX 
+-  ___ allowed 
+
+
+Boolean -- t / f XX datatype XX -- status flag 1/ 0 t/f
+
+Type casting possibilities 
+--------------------------
+int - str
+str(number) - int
+int - XXX- float
+float - int
+
+tuple - list 
+list - tuple 
+
+------------------------------
+
+# ---> comments 
+
+Numbers 
+--------
+vrName -> var name  = 13 --> value 
+
+
+Arithmetic ( 7)
+Logical
+Comparision
+Bitwise 
+assignment 
+special - 
+	Identity 
+	Membership
+
+
++ - add
+- - sub
+* - mul 
+/ - div 
+// - floor division 
+% - modulo 
+** - expo
+
+a = 25 
+b = 7 
+print ( a + b)
+print ( a - b)
+print ( a * b)
+print ( a / b)
+print ( a // b)
+print ( a ** b)
+
+c = 25.0
+d = 7
+print ( c + d)
+print ( c - d)
+print ( c * d)
+print ( c / d)
+print ( c // d)
+print ( c ** d)
+
+Comparision Ops: --> return boolean status ( T/F)
+---------------
+a b
+
+> 
+<
+==
+!=
+>=
+<=
+
+
+logical : && || !
+--------
+and   - both true -- true  
+or    - atleast onr true -- true
+not   - true - false / false - true 
+
+
+Bitwise ops :
+--------------
+Bitwise and - &
+Bitwise or - |
+Bitwise not - ~
+Bitwise XOR - ^
+Bitwise left shift - >>
+Bitwise right shift - <<
+
+a = 10 --> bits ( 0 and 1 s )
+b = 20  --> 10100
+
+1 byte -- ops 
+
+b>>2 --> 00101
+b<<2 --> 10000
+
+
+Assignment:
+-----------
+
+= 
++= incremental assignment => x+=7 ---> x=x+7
+-= decreemntal assignment 
+*= 
+/=
+%=
+//=
+**=
+&=
+|=
+
+
+LISTS 
+-----
+Identity 
+--------
+is 		- true -- same object 
+
+is not  - true -- not same object 
+
+membership 
+----------
+in 		-- inclusion 
+not in  -- not any inclusion

@@ -1,0 +1,182 @@
+PYTHON 
+======
+numbers
+strings 
+------------------
+STRINGS :
+--------
+group of chars 
+char
+
+varName = 'Python'
+stringExample = "Technology"
+
+\n -> new line character 
+\t -> tab character 
+\ - escape character 
+
+Paragraph -- 100 lines
+
+firstline = "ksfgdguugujhgb"
+secoodline = "ksfgdguugujhgb"
+thirdline = "ksfgdguugujhgb"
+fourthline = "ksfgdguugujhgb"
+
+para = ''' fgbhgbldfg ---> no error
+		  fbgjkfbjkf
+		  jdfgb;fgkdfgh
+		  jfdbgjfbgjfbnj
+		   jhfgjfhggkjh '''
+
+Strings 
+	-Slicing 
+	-Indexing
+	-Concatenation
+
+Indexing
+---------
+tech = "Python"
+
+Output : h --->array---->getting a var 
+ 
+tech[4] = h
+
+Slicng:
+-------
+output : yth -->array ---> for --> fetch vars
+
+tech[1:4] ---> 4 expect one less than 1,2,3
+
+
+p   y   t   h   o   n
+
+0   1   2   3   4   5  --->forward indexing 
+ 
+-6 -5  -4   -3  -2 -1  --> reverse indexing 
+
+
+String literals:
+----------------
+numbers --- int   - %d
+		--- float - %f
+Strings ---  %s 
+
+greeting = "Hai %s my age is %d" % ("Khan" , 26) -----> string formating
+
+Positional literals
+
+Raw strings 
+-----------
+myURL = r"http:\\mysite.com\new"   -> ignores all special characters 
+
+
+unicode string 
+---------------
+stringExample = u"my string variable "  -> considers string as a unicoded string
+
+
+a = 10   -> "10" 
+b = "10" -> 10
+
+int - str 
+str - int --conditional ---- str is a number
+
+
+
+Pre defined methods:
+--------------------
+
+len(stringEx)
+
+b = " khAN"
+b.lower()
+b.upper()
+b.capitalize()
+b.startswith("k") -> true
+b.startswith("j") -> false
+b.endswith("N")  -> true
+b.endswith("z")  ->false
+
+
+strK.spilt("-") ---> strK="khan - 26 - 50000 - Hyd" ---> khan,26,50000,Hyd
+
+"__".join(khan,26,50000,Hyd) -- "khan__26__50000__Hyd"
+
+concatenation 
+-------------
+joining of two strings
+
++ -> concat operator  -> two strings
+
+
+a = "junaid"
+b =" khan"
+a+b = junaid khan
+
+a= 29
+b = 39
+a+b = 68
+
+
+a= "khan"
+b = 26
+a,b = khan26
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

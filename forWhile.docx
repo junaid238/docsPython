@@ -1,0 +1,64 @@
+PYTHON
+------
+for loop
+--------
+strings - indexing 
+
+str =p  y  t  h  o  n
+	 0  1  2  3  4  5 
+str[4]
+str[2]
+
+str[1:3]
+
+iterating chars
+---------------
+for Dvar in tech:
+	print chars 
+
+array-- indexes -- i++
+array[i]
+
+for indexes in range(0,len(tech+1)):
+	print(tech[indexes])
+-------------------------------------------
+XXdo whileXX 
+-------------
+do this while that is true
+
+while = if/else loop 
+------
+do(kw missing) this while that is true
+--infinite loop ---while the condition is always true 
+
+limits -->may / maynot 
+condition --> mandatory
+expressions --> mandatory
+inc / dec --> required 
+
+
+while ( condition ):
+	exprsns
+
+Control statements:
+-------------------
+--> condition (mandatory)
+break 	loops		----exit after condition is 						true 
+continue loops		----exit and continue after 						condition is true 
+pass	any element	---- skips implementation 							which is mandatory 
+
+
+
+
+Collections in Python - 16/11
+---------------------
+
+
+
+
+
+
+
+
+
+

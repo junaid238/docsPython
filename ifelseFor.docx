@@ -1,0 +1,150 @@
+PYTHON 
+======
+Keywords :
+---------
+- reserved words 
+- keywords cannot be used for naming
+- cannot be customised 
+- False None and True
+
+
+ 33 keywords -- Python
+
+ Identifiers :
+-------------
+- names for vars , methods , classes 
+- naming conventions 
+- numbers are not allowed to start the name of identifier 
+- lowercase (_)
+- changes , customisable 
+
+-0-----------------------------------------------------------------0----
+
+Conditional Statement:
+----------------------
+- decision making statement
+- two outcomes - true / false
+- If True -- nothing next will be executed
+- condition , expression 
+
+-- if else
+- one block output is expected 
+
+if condition-->:
+	exp1 
+	exp2
+	.
+	.
+	.
+else:
+	exp3
+	exp4
+	..
+
+	.
+	. 
+
+
+cond1
+cond2
+cond3
+
+
+-- if elif elif elif . . .. . else
+
+if cond1:
+	exp1
+	exp2
+elif cond2:
+	exp3
+	exp4
+else:				--> cond3
+	exp5
+	exp6
+
+and or is not is in not in 
+
+
+24 hrs 
+
+5 zones
+
+time = 8 - 11
+ gm  
+ 12 - 3
+ gaf
+ 4- 8 
+ ge
+ 9 -11
+ gn 
+----------------------------------------
+single condition - standalone cond --- if else
+iterative conditions - loops 
+
+-repeats 
+-finite / infinite 
+-condition
+
+
+lOops :
+-------
+limits 
+expressions
+condition
+iter operation- inc / dec
+
+for in java
+-----------
+i=0
+for ( , i<100 , ){
+	expression1 ;
+	expression2 ;
+	expression3 ;
+	i++
+}
+
+
+for in Python 
+-------------
+for loop = if else + limit 
+
+
+- numbers iterations - pre defined 
+- string operations - pre defined 
+- collections - custom 
+
+
+range 
+-----
+numbers 
+
+range(_)
+range(_ , _)
+range(_ , _ , _) --> inc/dec , step input 
+
+range(10) --> 0 1 2 3 4 5 . .. . .9
+range(3 , 10) --> 3 4 5 . . .. 9    				 --> i++
+range ( 1 , 100 , 4) --> 1 5 9 13 17
+
+
+range - reverse  --- step= -1 
+
+range(90 , 10 , -1) ---> 90 89 88 87 86. . . . .9    --> i --
+
+for + range ():
+----------------
+
+for i in range(1 , 10 ):
+	print (i)
+
+for( i= 1 , i<10 , i++){
+	system.out.print(i)
+}
+
+Tasks:
+------
+even odd - if else inside for 
+--- without if else
+
+prime or composite 
+factors 

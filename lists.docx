@@ -1,0 +1,98 @@
+PYTHON
+------
+lists
+tuples
+
+namesList = [2,5,9,3,5,90]
+			 0 1 2 3 4 5--> . . . . . a b c d e
+
+indexes , keys  	-->int 
+values  			--> anything
+
+namesList[5]
+namesList[6]
+namesList[2]
+
+Dictionaries 
+------------
+keys , value pair collection 
+
+keys   --> indexes -> int strings
+values --> items   -> anything 
+
+
+keys are unique
+
+"name": "khan" 
+key 	value
+
+1 : "name"
+
+ctcDict = {"satya" : 12.3 , "sunder" : 4.6  , 1:3 , 3:"Khan" , "tech ": "Python"}
+
+
+
+accessing 
+---------
+
+
+
+ctcDict["satya"]
+>>> 12.3
+
+add / modify 
+------------
+
+ctcDict["name"]= "Kirti"
+ctcDict["tech"] = "PHP"
+
+
+
+ctcDict = {"satya" : 12.3 , "sunder" : 4.6  , 1:3 , 3:"Khan" , "tech ": "PHP" , "name ": "Kirti"}
+
+>>> ctcDict
+>>> "satya" : 12.3 , "tech ": "PHP", "sunder" : 4.6  , 1:3 , 3:"Khan", "name ": "Kirti"}
+
+pre defined functions:
+----------------------
+ctcDict.pop(3) ---> remove 3: "khan"
+ctcDict.popitem() ---> "satya":12.3
+del ctcDict
+ctcDict.clear()
+
+ctcDict.keys() ----> only keys 
+ctcDict.values() ---> values
+ctcDict.items() ---> pairs 
+len(ctcDict) -->length
+sorted(ctcDict) --> list of sorted keys
+
+
+dictionary comprehensions :
+--------------------------
+doubleDict = {i: 2*i for i in range (50,60) if i%2 == 0}
+
+
+50:100
+52:104
+.
+.
+.
+.
+
+membership check 
+-----------------
+true / false
+
+
+12.3 in ctcDict  --> true
+10 in ctcDict  --> false
+10 not in ctcDict --> true
+
+
+
+usage:
+-----
+--> marks 
+--> form data
+--> excel 
+--> vcf -> contact
