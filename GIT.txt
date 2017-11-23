@@ -1,3 +1,7 @@
 GIT
 ---
 https://git-scm.com/download/win
+<<<<<<< HEAD
+=======
+git checkout -b <branch name>
+>>>>>>> dev
