@@ -1,3 +1,4 @@
 GIT
 ---
 https://git-scm.com/download/win
+git checkout -b <branch name>
